@@ -1,4 +1,4 @@
-import { ParentComponent, onMount } from 'solid-js'
+import { ParentComponent } from 'solid-js'
 
 const TRPCProvider: ParentComponent = props => {
   return (
