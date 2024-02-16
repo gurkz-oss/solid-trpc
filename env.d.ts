@@ -1,5 +1,3 @@
-import type { Umami } from 'src/types'
-
 declare global {
   interface ImportMeta {
     env: {
@@ -14,10 +12,6 @@ declare global {
       PROD: boolean
       DEV: boolean
     }
-  }
-
-  interface Window {
-    umami?: Umami
   }
 }
 

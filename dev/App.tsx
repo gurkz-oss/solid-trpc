@@ -1,10 +1,8 @@
 import type { Component } from 'solid-js'
 import logo from './logo.svg'
 import styles from './App.module.css'
-import { useAnalytics } from '../src'
 
 const App: Component = () => {
-  const { track } = useAnalytics()
   return (
     <div class={styles.App}>
       <header class={styles.header}>
@@ -20,7 +18,6 @@ const App: Component = () => {
         >
           Learn Solid
         </a>
-        <button onClick={() => track('clicked')}>track</button>
       </header>
     </div>
   )

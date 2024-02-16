@@ -1,17 +1,17 @@
 {
-  "name": "@gurkz/solid-analytics",
-  "version": "1.0.0",
-  "description": "a simple library that adds analytics to solidjs",
+  "name": "@gurkz/solid-trpc",
+  "version": "0.0.0",
+  "description": "fork of @solid-mediakit/trpc that works with the latest solid start version",
   "license": "MIT",
   "author": "Gurkan",
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gurkz-oss/solid-analytics.git"
+    "url": "git+https://github.com/gurkz-oss/solid-trpc.git"
   },
-  "homepage": "https://github.com/gurkz-oss/solid-analytics#readme",
+  "homepage": "https://github.com/gurkz-oss/solid-trpc#readme",
   "bugs": {
-    "url": "https://github.com/gurkz-oss/solid-analytics/issues"
+    "url": "https://github.com/gurkz-oss/solid-trpc/issues"
   },
   "files": [
     "dist"
